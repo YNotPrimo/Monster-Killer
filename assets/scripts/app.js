@@ -102,9 +102,10 @@ function endRound() {
 }
 
 function attackMonster(attackMode) {
-  const maxDamage = attackMode === MODE_ATTACK ? ATTACK_VALUE : STRONG_ATTACK_VALUE;
+  const maxDamage =
+    attackMode === MODE_ATTACK ? ATTACK_VALUE : STRONG_ATTACK_VALUE;
   const logEvent =
-  attackMode === MODE_ATTACK
+    attackMode === MODE_ATTACK
       ? LOG_EVENT_PLAYER_ATTACK
       : LOG_EVENT_PLAYER_STRONG_ATTACK;
 
