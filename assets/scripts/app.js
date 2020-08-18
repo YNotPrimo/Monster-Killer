@@ -34,8 +34,6 @@ try {
   chosenMaxLife = 100;
 }
 
-
-
 let currentMonsterHealth = chosenMaxLife;
 let currentPlayerHealth = chosenMaxLife;
 let hasBonusLife = true;
